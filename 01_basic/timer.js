@@ -1,3 +1,4 @@
+
 setTimeout(function()  {
     console.log('1초 경과');
 }, 1000);
@@ -10,4 +11,5 @@ let id = setInterval(function()  {
 
 setTimeout(function()  {
     clearInterval(id);
+
 },5000);

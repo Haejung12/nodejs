@@ -1,3 +1,4 @@
+
 let array = [1,2,3];
 let array2 = [[1,2,3,],[4,5,6]];
 let array3 = [[1,2,3],[4,5,6],['a','b']];
@@ -26,4 +27,5 @@ for (let item of array3)  {
 
 for (let i=0; i<array3.length; i++) {
     console.log(array3[i]);
+
 }
